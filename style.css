@@ -26,7 +26,15 @@ a:hover {
     z-index: 100000;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
-
+.taille20{
+    font-size: 21px;;
+}
+.italique{
+    font-style: italic;
+}
+.taille16{
+    font-size:16px;
+}
 .bloc {
     width: 100%;
     clear: both;
@@ -322,11 +330,11 @@ a:hover {
     z-index: 1;
 }
 
-.nav > li {
+/*.nav > li {
     float: left;
     margin-top: 4px;
     font-size: 16px;
-}
+}*/
 
 .navbar-nav .open .dropdown-menu > li > a {
     text-align: inherit;
@@ -363,13 +371,13 @@ a:hover {
 }
 
 @media (min-width: 768px) {
-    .site-navigation {
+    /*.site-navigation {
         position: absolute;
         top: 50%;
         right: 20px;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
-    }
+    }*/
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
         color: #484848;
