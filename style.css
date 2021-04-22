@@ -35,6 +35,10 @@ a:hover {
 .taille16{
     font-size:16px;
 }
+.tc-white2{
+    color: white!important;
+}
+
 .bloc {
     width: 100%;
     clear: both;
@@ -98,10 +102,10 @@ a:hover {
     right: 0;
 }
 
-.texture-paper::before {
+/*.texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
-}
+}*/
 
 .b-parallax {
     background-attachment: fixed;
@@ -833,7 +837,7 @@ h4 {
     background-image: url("img/image-de-presentation.bmp");
 }
 
-@media (max-width: 1024px) {
+/*@media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
         padding-right: 20px;
@@ -866,9 +870,9 @@ h4 {
     .b-parallax {
         background-attachment: scroll;
     }
-}
+}*/
 
-@media (max-width: 991px) {
+/*@media (max-width: 991px) {
     .container {
         width: 100%;
     }
@@ -895,9 +899,9 @@ h4 {
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
     }
-}
+}*/
 
-@media (max-width: 767px) {
+/*@media (max-width: 767px) {
     .page-container {
         overflow-x: hidden;
         position: relative;
@@ -1034,17 +1038,17 @@ h4 {
         width: 180px;
         height: 320px;
     }
-}
+}*/
 
-@media (max-width: 400px) {
+/*@media (max-width: 400px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
     }
-}
+}*/
 
-@media (max-width: 767px) {
+/*@media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
     }
-}
+}*/
